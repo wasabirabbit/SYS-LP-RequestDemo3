@@ -4,12 +4,11 @@ html, body {
 }
 
 body {
-/*	background:url('../img/background-large.png') no-repeat center center fixed;*/
-  	background: #ffffff;
-/*  	-webkit-background-size: cover;
+	background:url('../img/SYS_RacingCarBG.jpg') no-repeat center center fixed;
+  	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-  	background-size: cover;*/
+  	background-size: cover;
 }
 
 h1 {
@@ -33,7 +32,7 @@ p {
 .text-white {
 	color: #ffffff;
 }
-.text-grey {
+.{
 	color: #4D5456;
 }
 .text-orange {
@@ -62,7 +61,7 @@ p {
 	min-height: 100%;
 	height: 100%;
 	overflow: scroll;
-	background-color: #f36c21;	
+		background-color: rgba(242, 108, 33, 0.6);
 }
 
 #descHolder {
@@ -152,7 +151,7 @@ span.instructions {
 .content-panel {
 	border: none;
 	padding: 0 3.5rem 2em;
-	background-color: #f36c21;
+	/*background-color: rgba(242, 108, 33, 0.4);*/
 	opacity: 0.95;
 	margin-bottom: 0;
 	height: 100%;
@@ -189,7 +188,7 @@ input[type="text"],input[type="email"],input[type="tel"],input[type="text"]:focu
 	box-shadow: none;
 	color:#FFFFFF;
 	border: 1px solid #ffffff;
-	background-color: #f36c21;	
+	background-color: transparent;	
 	opacity: 1;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -219,7 +218,7 @@ input[type="text"],input[type="email"],input[type="tel"],input[type="text"]:focu
 	font-family: 'proxima-nova', Helvetica, Arial, sans-serif;	
 	color:#FFFFFF;
 	border: 1px solid #ffffff;
-	background-color: #f36c21;
+	background-color: transparent;
 	background-image: url('../img/select-arrow.png');	
 	background-position: 95% center;
     background-repeat: no-repeat;
@@ -294,6 +293,10 @@ button.button-error {
 	body {
 		/*background:url('../img/background-small.png') no-repeat top center;
 		background-size: 100%;*/
+		color: #ffffff;
+	}
+	p {
+		color: #ffffff;
 	}
 
 #imacImg {
@@ -357,7 +360,7 @@ button.button-error {
 
 	p {
 	   font-size: 0.8em;
-	   color:#333;
+	   
 	}
 
 	.row {
