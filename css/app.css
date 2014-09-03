@@ -57,6 +57,13 @@ p {
 	display: table;
 }
 
+.nopadding {
+	padding: 0;
+}
+.nomargin {
+	margin: 0;
+}
+
 #formHolder {
 	min-height: 100%;
 	height: 100%;
@@ -287,6 +294,8 @@ button.button-error {
 	opacity: 0.95;
 	text-align: left;
 }
+
+
 
 @media only screen and (max-width: 640px) { 
 
