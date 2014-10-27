@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-   font-size: 1.4em;
+   font-size: 1.8em;
    color:#FFFFFF;
    font-family: "futura-pt", Helvetica, Arial, sans-serif;
 	font-style: normal;
@@ -28,7 +28,9 @@ p {
    font-size: 0.9em;
    color:#FFFFFF;
 }
-
+.small-p {
+	font-size: .7em;
+}
 .text-white {
 	color: #ffffff;
 }
