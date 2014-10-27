@@ -169,6 +169,9 @@ span.instructions {
 .thk {
 	background: url('../img/panel-design-thanks.png') no-repeat top right #0E8E9B;
 }
+.border-bot{
+	border-bottom: solid #40599f;
+}
 
 .thkblue {
 	background-color: #0E8E9B;
